@@ -1,0 +1,140 @@
+{
+    "multiscales": [
+        {
+            "axes": [
+                {
+                    "name": "t",
+                    "type": "time",
+                    "unit": "second"
+                },
+                {
+                    "name": "c",
+                    "type": "channel"
+                },
+                {
+                    "name": "y",
+                    "type": "space",
+                    "unit": "micrometer"
+                },
+                {
+                    "name": "x",
+                    "type": "space",
+                    "unit": "micrometer"
+                }
+            ],
+            "datasets": [
+                {
+                    "coordinateTransformations": [
+                        {
+                            "scale": [
+                                1.0,
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "type": "scale"
+                        }
+                    ],
+                    "path": "0"
+                },
+                {
+                    "coordinateTransformations": [
+                        {
+                            "scale": [
+                                1.0,
+                                1.0,
+                                2.0,
+                                2.0
+                            ],
+                            "type": "scale"
+                        }
+                    ],
+                    "path": "1"
+                },
+                {
+                    "coordinateTransformations": [
+                        {
+                            "scale": [
+                                1.0,
+                                1.0,
+                                4.0,
+                                4.0
+                            ],
+                            "type": "scale"
+                        }
+                    ],
+                    "path": "2"
+                },
+                {
+                    "coordinateTransformations": [
+                        {
+                            "scale": [
+                                1.0,
+                                1.0,
+                                8.0,
+                                8.0
+                            ],
+                            "type": "scale"
+                        }
+                    ],
+                    "path": "3"
+                },
+                {
+                    "coordinateTransformations": [
+                        {
+                            "scale": [
+                                1.0,
+                                1.0,
+                                16.0,
+                                16.0
+                            ],
+                            "type": "scale"
+                        }
+                    ],
+                    "path": "4"
+                }
+            ],
+            "version": "0.4"
+        }
+    ],
+    "omero": {
+        "channels": [
+            {
+                "active": true,
+                "color": "00FFFF",
+                "label": "channel_0",
+                "wavelength_id": "channel_0",
+                "window": {
+                    "end": 239.0,
+                    "max": 255.0,
+                    "min": 0.0,
+                    "start": 29.0
+                }
+            },
+            {
+                "active": true,
+                "color": "FF00FF",
+                "label": "channel_1",
+                "wavelength_id": "channel_1",
+                "window": {
+                    "end": 243.0,
+                    "max": 255.0,
+                    "min": 0.0,
+                    "start": 40.0
+                }
+            },
+            {
+                "active": true,
+                "color": "FFFF00",
+                "label": "channel_2",
+                "wavelength_id": "channel_2",
+                "window": {
+                    "end": 247.0,
+                    "max": 255.0,
+                    "min": 0.0,
+                    "start": 16.0
+                }
+            }
+        ]
+    }
+}
