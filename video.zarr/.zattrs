@@ -105,10 +105,10 @@
                 "label": "red",
                 "wavelength_id": "red",
                 "window": {
-                    "end": 253.0,
+                    "end": 255.0,
                     "max": 255.0,
                     "min": 0.0,
-                    "start": 95.0
+                    "start": 0.0
                 }
             },
             {
@@ -117,10 +117,10 @@
                 "label": "green",
                 "wavelength_id": "green",
                 "window": {
-                    "end": 252.0,
+                    "end": 255.0,
                     "max": 255.0,
                     "min": 0.0,
-                    "start": 96.0
+                    "start": 0.0
                 }
             },
             {
@@ -129,10 +129,10 @@
                 "label": "blue",
                 "wavelength_id": "blue",
                 "window": {
-                    "end": 254.0,
+                    "end": 255.0,
                     "max": 255.0,
                     "min": 0.0,
-                    "start": 100.0
+                    "start": 0.0
                 }
             }
         ]
