@@ -101,38 +101,38 @@
         "channels": [
             {
                 "active": true,
-                "color": "00FFFF",
-                "label": "channel_0",
-                "wavelength_id": "channel_0",
+                "color": "FF0000",
+                "label": "red",
+                "wavelength_id": "red",
                 "window": {
-                    "end": 239.0,
+                    "end": 253.0,
                     "max": 255.0,
                     "min": 0.0,
-                    "start": 29.0
+                    "start": 95.0
                 }
             },
             {
                 "active": true,
-                "color": "FF00FF",
-                "label": "channel_1",
-                "wavelength_id": "channel_1",
+                "color": "00FF00",
+                "label": "green",
+                "wavelength_id": "green",
                 "window": {
-                    "end": 243.0,
+                    "end": 252.0,
                     "max": 255.0,
                     "min": 0.0,
-                    "start": 40.0
+                    "start": 96.0
                 }
             },
             {
                 "active": true,
-                "color": "FFFF00",
-                "label": "channel_2",
-                "wavelength_id": "channel_2",
+                "color": "0000FF",
+                "label": "blue",
+                "wavelength_id": "blue",
                 "window": {
-                    "end": 247.0,
+                    "end": 254.0,
                     "max": 255.0,
                     "min": 0.0,
-                    "start": 16.0
+                    "start": 100.0
                 }
             }
         ]
